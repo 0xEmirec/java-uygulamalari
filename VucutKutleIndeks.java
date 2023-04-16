@@ -6,11 +6,6 @@ public class VucutKutleIndeks {
         /*
         KULLANICIDAN ALINAN KİLO VE BOY DEGERLERİNE GORE FORMULLE VUCUT KITLE INDEKSI HESAPLAMA
         Formül : Kilo (kg) / Boy(m) * Boy(m)
-        18.5'ten küçükse ekrana "Zayıf"
-        18.5 ile 24.9 arasında ise ekrana "İdeal"
-        25 ile 29.9 arasında ise ekrana "Şişman"
-        30 ile 34.9 arasında ise ekrana "Obez"
-        35'ten büyükse ise ekrana "Aşırı Obez" yazsın.
         */
         System.out.println("Lütfen boyunuzu giriniz (cm cinsinden): ");
         double boy = klavye.nextDouble();
