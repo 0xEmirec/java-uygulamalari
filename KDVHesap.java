@@ -8,7 +8,7 @@ public class KDVHesap {
         KDV ORANI = 18/100
         */
         System.out.println("Fiyat giriniz : ");
-        double fiyat = klavye.nextInt();
+        double fiyat = klavye.nextDouble();
         double kdv = (fiyat*18)/100;
         double kdvFiyat = fiyat + kdv;
         System.out.println("KDV'li fiyatınız : "+kdvFiyat);
