@@ -21,19 +21,19 @@ public class ManavFiyat {
         double domates = 0.95;
         double patlican = 7.00;
 
-        System.out.println("Kaç kilo salatalık ?");
+        System.out.println("Kaç kilo salatalık ? : ");
         int k1 = klavye.nextInt();
         salatalik = salatalik*k1;
-        System.out.println("Kaç kilo elma ?");
+        System.out.println("Kaç kilo elma ? : ");
         int k2 = klavye.nextInt();
         elma = elma*k1;
-        System.out.println("Kaç kilo kabak ?");
+        System.out.println("Kaç kilo kabak ? : ");
         int k3 = klavye.nextInt();
         kabak = kabak*k1;
-        System.out.println("Kaç kilo domates ?");
+        System.out.println("Kaç kilo domates ? : ");
         int k4 = klavye.nextInt();
         domates = domates*k4;
-        System.out.println("Kaç kilo patlıcan ?");
+        System.out.println("Kaç kilo patlıcan ? : ");
         int k5 = klavye.nextInt();
         patlican = patlican*k1;
 
