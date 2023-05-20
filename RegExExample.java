@@ -21,11 +21,15 @@ public class RegExExample {
             text = klavye.nextLine();
 
             matcher = pattern.matcher(text);
-
+            boolean find=false;
             while (matcher.find()){
                 System.out.println("Baslangic indeksi : "+matcher.start());
                 System.out.println("Bitis indeksi : "+matcher.end());
                 System.out.println("Bulunan metin : "+matcher.group()+"-");
+                find=true;
+            }
+            if (find==false){
+                System.out.println("Girdiğiniz RegEx'e uygun eşleşme bulunamadı!");
             }
         }
     }
